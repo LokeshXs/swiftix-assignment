@@ -22,7 +22,7 @@ import CommentContainer from "./CommentContainer";
 
 export function Comments() {
   return (
-    <SheetContent className="overflow-y-auto">
+    <SheetContent className="overflow-y-auto z-[999] max-sm:w-full">
       <SheetHeader>
         <SheetTitle>Comments</SheetTitle>
         <SheetDescription>Write a thoughtful comment</SheetDescription>

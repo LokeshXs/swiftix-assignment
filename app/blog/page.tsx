@@ -5,6 +5,7 @@ import BlogCard from "@/components/BlogCard";
 import RecentPostsCard from "@/components/RecentPostsCard";
 import CategoriesCard from "@/components/CategoriesCard";
 import Link from "next/link";
+import { Reveal } from "@/components/RevealAnimate";
 
 export default function BlogPage() {
   return (
@@ -33,9 +34,9 @@ export default function BlogPage() {
         </div>
       </div>
 
-      <div className="flex gap-4 relative items-start  ">
+      <div className="flex gap-8 relative items-start  ">
       <article className="space-y-12 max-md:space-y-6 max-sm:hidden sticky top-0 py-6 ">
-        <div className="bg-muted px-12 max-md:px-6 py-8 rounded-2xl space-y-6 ">
+        <div className="  max-md:px-6 py-8 rounded-2xl space-y-6 ">
           <h4 className="text-2xl font-bold">Recent Posts</h4>
           <div className="flex flex-col gap-4">
             <RecentPostsCard />
@@ -59,19 +60,40 @@ export default function BlogPage() {
         </div>
       </article>
         <div className="flex flex-wrap gap-8  flex-1 max-lg:justify-center">
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+        <Reveal>
+        <BlogCard />
+        </Reveal>
+         
         </div>
         
       </div>

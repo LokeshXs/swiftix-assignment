@@ -8,7 +8,7 @@ const components: any = {
   h1: ({ className, ...props }) => (
     <h1
       className={cn(
-        "mt-2 scroll-m-20 text-4xl font-bold tracking-tight",
+        "mt-2 scroll-m-20 text-4xl max-sm:text-2xl font-bold tracking-tight",
         className
       )}
       {...props}
@@ -17,7 +17,7 @@ const components: any = {
   h2: ({ className, ...props }) => (
     <h2
       className={cn(
-        "mt-10 scroll-m-20 border-b pb-1 text-3xl font-semibold tracking-tight first:mt-0",
+        "mt-10 scroll-m-20 border-b pb-1 text-3xl max-sm:text-xl font-semibold tracking-tight first:mt-0",
         className
       )}
       {...props}

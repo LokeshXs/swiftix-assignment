@@ -36,12 +36,12 @@ export default function ContactPage() {
       <section className="pt-24 pb-8 max-sm:pb-14 h-[480px] max-sm:h-[400px] bg-custom-contact text-secondary-foreground ">
         <div className=" max-container flex flex-col justify-between items-start h-full px-4 ">
           <div>
-            <h1 className="text-5xl max-lg:text-4xl max-[420px]:text-3xl font-bold text-secondary-foreground w-full">
+            <h1 className="text-5xl text-primary-foreground max-lg:text-4xl max-[420px]:text-3xl font-bold  w-full">
               <SideAnimation>Contact Us</SideAnimation>
             </h1>
             <Reveal>
-              <p className=" text-lg mt-4 max-sm:text-base ">
-                Let’s Create Something AMAZING Together!
+              <p className=" text-lg mt-4 max-sm:text-base text-primary-foreground ">
+                Connect with us
               </p>
             </Reveal>
           </div>
